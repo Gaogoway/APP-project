@@ -53,6 +53,7 @@
 		background: #282828;
 		color: #999;
 		position: absolute;
+		z-index: 4;
 		
 		li{
 			width: 210px;
@@ -69,7 +70,8 @@
 		height: 670px;
 		background: rgba(0,0,0,0.5);
 		position: absolute;
+		z-index: 3;
 		top: 50px;
-		z-index: -1;
+		
 	}
 </style>
