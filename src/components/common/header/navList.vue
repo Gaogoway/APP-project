@@ -65,6 +65,7 @@
 			padding:0 16px;
 		}
 	}
+	/*hhhddd*/
 	.mask{
 		width: 320px;
 		height: 670px;
