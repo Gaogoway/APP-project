@@ -18,12 +18,13 @@
 		</div>
 	</header>
 	<!--父传子这个:isNavList="isNavList"是绑定它的值就是isNavList的值-->
-	<nav-list :isNavList="isNavList" @close="isNavList=flase"></nav-list>
+	<nav-list :isNavList="isNavList" @close="isNavList=false"></nav-list>
 	</div>
 </template>
 
 <script>
-	import navList from "./navList.vue"
+	import navList from "./navList.vue";
+	import "animate.css";
 	export default{
 		name:"Header",
 		data(){
